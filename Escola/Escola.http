@@ -1,0 +1,6 @@
+@SistemaMatriculas_HostAddress = http://localhost:5272
+
+GET {{SistemaMatriculas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

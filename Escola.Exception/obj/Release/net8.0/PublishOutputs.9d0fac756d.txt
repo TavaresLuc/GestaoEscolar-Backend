@@ -1,0 +1,3 @@
+C:\Code\Escola\Backend\Escola\publish\Escola.Exception.dll
+C:\Code\Escola\Backend\Escola\publish\Escola.Exception.deps.json
+C:\Code\Escola\Backend\Escola\publish\Escola.Exception.pdb

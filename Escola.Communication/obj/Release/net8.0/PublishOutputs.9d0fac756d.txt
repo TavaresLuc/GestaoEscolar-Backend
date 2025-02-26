@@ -1,0 +1,3 @@
+C:\Code\Escola\Backend\Escola\publish\Escola.Communication.dll
+C:\Code\Escola\Backend\Escola\publish\Escola.Communication.deps.json
+C:\Code\Escola\Backend\Escola\publish\Escola.Communication.pdb
