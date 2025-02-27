@@ -539,3 +539,4 @@ C:\Code\Escola\Backend\Escola\obj\Debug\net8.0\refint\Escola.Api.dll
 C:\Code\Escola\Backend\Escola\obj\Debug\net8.0\Escola.Api.pdb
 C:\Code\Escola\Backend\Escola\obj\Debug\net8.0\Escola.Api.genruntimeconfig.cache
 C:\Code\Escola\Backend\Escola\obj\Debug\net8.0\ref\Escola.Api.dll
+C:\Code\Escola\Backend\Escola\obj\Debug\net8.0\Escola.Api.sourcelink.json
