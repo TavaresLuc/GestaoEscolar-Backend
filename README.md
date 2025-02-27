@@ -68,21 +68,32 @@ A API estará rodando em `http://localhost:7194` (Certifique-se no `appsettings.
 
 ---
 
-## 🔥 Endpoints Disponíveis
-A API possui os seguintes endpoints:
+# 📌 Endpoints da API
 
-#### 📍 Alunos
-- `GET /api/aluno` → Lista todos os alunos
-- `POST /api/aluno` → Adiciona um novo aluno
-- `PUT /api/aluno/{id}` → Atualiza um aluno
-- `DELETE /api/aluno/{id}` → Remove um aluno
+## **Aluno**
+- **POST** `/api/Aluno` → Criar um novo aluno
+- **GET** `/api/Aluno` → Listar todos os alunos
+- **GET** `/api/Aluno/{id}` → Obter detalhes de um aluno pelo ID
+- **DELETE** `/api/Aluno/{id}` → Remover um aluno pelo ID
+- **PUT** `/api/Aluno/update/{id}` → Atualizar um aluno pelo ID
 
-#### 📍 Cursos
-- `GET /api/curso` → Lista todos os cursos
-- `POST /api/curso` → Adiciona um novo curso
+---
 
-#### 📍 Matrículas
-- `POST /api/matricula` → Matricula um aluno em um curso
+## **Curso**
+- **POST** `/api/Curso` → Criar um novo curso
+- **GET** `/api/Curso` → Listar todos os cursos
+- **GET** `/api/Curso/{id}` → Obter detalhes de um curso pelo ID
+- **DELETE** `/api/Curso/{id}` → Remover um curso pelo ID
+- **PUT** `/api/Curso/update/{id}` → Atualizar um curso pelo ID
+
+---
+
+## **Matrícula**
+- **POST** `/api/Matricula` → Matricular um aluno em um curso
+- **GET** `/api/Matricula/{id}` → Obter detalhes de uma matrícula pelo ID
+- **GET** `/api/Matricula/aluno/{alunoId}` → Listar matrículas de um aluno específico
+- **GET** `/api/Matricula/curso/{cursoId}` → Listar matrículas de um curso específico
+- **DELETE** `/api/Matricula/remover/{alunoId}/{cursoId}` → Remover uma matrícula pelo ID do aluno e ID do curso
 
 ---
 
