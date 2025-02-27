@@ -26,12 +26,17 @@ cd GestaoEscolar-Backend
 ```
 
 ### 2️⃣ Configure a String de Conexão
-Abra o arquivo **`appsettings.json`** e ajuste a string de conexão do banco de dados com os seus dados correto de usuário e senha:
+Abra o arquivo **`appsettings.json`** e **`Infrastructure\Data\EscolaDbContext.cs`**  e ajuste a string de conexão do banco de dados com os seus dados correto de usuário e senha:
 
+No appsettings.json:
 ```json
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost\\SQLEXPRESS;Database=BaseEscola;User Id=sa;Password=sua_senha;TrustServerCertificate=True"
 }
+```
+No EscolaDbContext.cs:
+```
+optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=BaseEscola;User Id=sa;Password=qaz@123;TrustServerCertificate=True;");
 ```
 
 ---
@@ -43,6 +48,7 @@ dotnet restore
 ```
 
 ---
+
 
 ### 4️⃣ Aplicar Migrations
 Se este for seu primeiro uso, execute:
